@@ -1,11 +1,43 @@
 'use client'
 
+const duracao = (start: Date) => {
+  const now = new Date();
+  const years = now.getFullYear() - start.getFullYear();
+  const months = now.getMonth() - start.getMonth();
+  
+  if (months < 0) {
+    return `${years - 1} ano${years - 1 !== 1 ? 's' : ''} e ${12 + months} meses`;
+  }
+  if (months === 0) {
+    return `${years} ano${years !== 1 ? 's' : ''}`;
+  }
+  return `${years} ano${years !== 1 ? 's' : ''} e ${months} meses`;
+};
+
 const experiencias = [
   {
-    empresa: 'BrBox Sistemas',
+    empresa: 'T-Code Soluções Tecnológicas LTDA',
+    cargo: 'Fundador & Desenvolvedor & Consultor',
+    periodo: 'junho de 2023 - presente',
+    duracao: duracao(new Date('2023-06-01')),
+    localizacao: 'Rio do Sul, SC',
+    descricao: [
+      'Fundação da empresa e desenvolvimento de projetos para clientes, atuando como desenvolvedor fullstack, consultor técnico e gestor de projetos.',
+      'Atuei como desenvolvedor fullstack prestando serviços através de CNPJ, participando de projetos próprios e de clientes com foco em sistemas de logística voltados para operações de e commerce e soluções financeiras.',
+      'Desenvolvi e mantive APIs e serviços de integração com marketplaces como Shopee e Mercado Livre, automatizando fluxos de pedidos, atualizações de status e sincronização de dados.',
+      'Implementei rotinas de processamento assíncrono e mensageria para suportar alto volume de operações, melhorando a estabilidade e reduzindo falhas em integrações.',
+      'Atuei na sustentação de sistemas em produção, analisando e resolvendo problemas críticos, além de otimizar queries e rotinas que impactavam diretamente tempo de resposta e processamento.',
+      'Trabalhei com infraestrutura em cloud, incluindo configuração de ambientes, pipelines de deploy e monitoramento, garantindo maior confiabilidade nas entregas.',
+      'Participei da definição de arquitetura e decisões técnicas, buscando manter os sistemas simples, escaláveis e fáceis de evoluir.',
+      'Em alguns projetos, atuei próximo da liderança técnica, ajudando na organização das demandas e direcionamento técnico das entregas.',
+    ],
+    tecnologias: ['PHP', 'Laravel', 'Vue.js', 'Reactjs', 'Node.js', 'C#', 'GCP', 'Gitlab CI', 'Docker', ],
+  },
+  {
+    empresa: 'Data Logistic Sistemas LTDA',
     cargo: 'Senior Fullstack Software Engineer | Tech Lead',
-    periodo: 'outubro de 2023 - Atualmente',
-    duracao: '2 anos e 3 meses',
+    periodo: 'outubro de 2023 - abril de 2026',
+    duracao: '2 anos e 7 meses',
     localizacao: 'Rio do Sul, SC',
     descricao: [
       'Como Tech Lead ajudei na organização e na implantação de processos de kanban e nos ritos de daily e planning.',

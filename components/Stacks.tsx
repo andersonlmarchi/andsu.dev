@@ -18,7 +18,7 @@ const techCategories = {
     description: 'Bancos de dados relacionais e NoSQL'
   },
   'Cloud & DevOps': {
-    items: ['GCP', 'Docker', 'Gitlab CI', 'CircleCI', 'Nginx', 'AWS', 'Heroku', 'Render', 'Kubernetes'],
+    items: ['GCP', 'Docker', 'Gitlab CI', 'CircleCI', 'Nginx', 'AWS', 'Heroku', 'Render', 'Kubernetes', 'Coolify', 'VPS'],
     description: 'Infraestrutura em nuvem e DevOps'
   },
   'Arquitetura': {
