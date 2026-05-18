@@ -6,7 +6,7 @@ import ImageCarousel from './ImageCarousel'
 const projetos = [
   {
     id: 1,
-    name: 'Projeto LogPago',
+    name: 'Sistema: LogPago',
     description: 'Projeto desenvolvido para disponibilizar antecipações de recebíveis de forma rápida e segura.',
     stack: ['Node.js', 'React', 'PostgreSQL', 'Docker', 'Typescript', 'Express'],
     githubUrl: '',
@@ -32,7 +32,7 @@ const projetos = [
   },
   {
     id: 2,
-    name: 'BrBox - Plataforma de Logística',
+    name: 'Sistema: Box Logistics',
     description: 'Plataforma de logística para gestão de transportadoras, com funcionalidades de rastreamento, gestão financeira e integração com sistemas de terceiros.',
     stack: ['PHP', 'Laravel', 'Vue.js', 'PostgreSQL', 'Docker', 'GCP'],
     githubUrl: '',
@@ -59,7 +59,7 @@ A arquitetura suporta múltiplas empresas e centros de distribuição com permis
   },
   {
     id: 3,
-    name: 'Projeto Solicitação de Adiantamentos',
+    name: 'Sistema: Solicitação de Adiantamentos',
     description: 'Projeto desenvolvido para gerenciar solicitações de adiantamento de diárias para técnicos em campo, com workflow completo de criação, aprovação e pagamento.',
     stack: ['C#', 'Entity Framework', 'Postgres', 'Integração SOAP', 'ASP.NET Core MVC', 'Razor Views'],
     githubUrl: '',
@@ -85,6 +85,27 @@ A implementação de notificações por SMTP permite que todos os stakeholders s
 
 O workflow de aprovação multicamadas (criação → aprovação/reprovação → pagamento) garante controle e compliance no processo de adiantamentos.`,
   },
+  {
+    id: 4,
+    name: 'API: Integração de Documentos Fiscais - ZapSign',
+    description: 'API de integração com a plataforma de assinaturas digitais ZapSign para automação de processos de assinatura de contratos e documentos fiscais.',
+    stack: ['Node.js', 'Express', 'Typescript', 'Axios', 'Docker', 'API REST'],
+    githubUrl: '',
+    images: [
+      '/projects/zapsign/api.png',
+    ],
+    details: `Este projeto é uma API que faz a ponte entre o Box Logistics e a ZapSign, permitindo que os dois sistemas conversem de forma centralizada.
+
+Ele é responsável por criar e gerenciar documentos que precisam ser assinados digitalmente, cuidando de todo o ciclo de vida desses documentos.
+
+A API também administra as pessoas que vão assinar, mantendo o controle sobre quem foi convidado, quem já assinou e como o processo de assinatura deve ser conduzido.
+
+Além disso, ela trabalha com modelos de documento, oferecendo a possibilidade de gerar novos documentos a partir de padrões já definidos, o que facilita a criação e padronização de contratos ou formulários.
+
+O sistema lida com notificações e eventos de forma automática, recebendo atualizações sobre o que acontece com os documentos e garantindo que as mudanças sejam capturadas corretamente.
+
+Por fim, a API garante que a integração permaneça estável, validando se a plataforma de assinatura está pronta para operar e mantendo tudo organizado em um único ponto de controle.`,
+  }
 ]
 
 export default function Projetos() {
