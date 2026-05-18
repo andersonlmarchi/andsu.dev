@@ -21,21 +21,17 @@ npm install
 npm run dev
 ```
 
-Acesse [http://localhost:3000](http://localhost:3000)
+Acesse [http://localhost:3005](http://localhost:3005)
 
 ## 📝 Personalização
 
 ### Adicionar Projetos
 
-Edite o arquivo `components/Projects.tsx` e adicione seus projetos no array `projects`.
+Edite o arquivo `components/Projetos.tsx` e adicione seus projetos no array `projetos`.
 
 ### Adicionar Imagens
 
-Coloque as imagens dos projetos em `public/projects/` e atualize o caminho no array de projetos.
-
-### Adicionar Códigos
-
-Edite o arquivo `components/CodeShowcase.tsx` para adicionar mais exemplos de código.
+Coloque as imagens dos projetos em `public/projects/` e atualize o caminho no array `images` de cada projeto.
 
 ## 🎨 Estilo
 

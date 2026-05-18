@@ -21,9 +21,9 @@ export default function Sobre() {
             Resumo
           </h3>
           <p className="mb-4">
-            Trabalho há <span className="text-terminal-green terminal-glow">10 anos</span> como desenvolvedor fullstack, 
+            Trabalho há <span className="text-terminal-green terminal-glow">11 anos</span> como desenvolvedor fullstack, 
             atuando em sistemas de gestão pública, plataformas de logística e ecommerce, soluções financeiras para 
-            transportadoras, integrações com documentos fiscais, PDV de varejo, assinaturas digitais e integração com 
+            transportadoras, integrações com documentos fiscais, PDV de varejo (Lojas Americanas), assinaturas digitais e integração com 
             grandes e-commerces, como <span className="text-terminal-green terminal-glow">Shopee</span> e{' '}
             <span className="text-terminal-green terminal-glow">Mercado Livre</span>.
           </p>
@@ -37,7 +37,7 @@ export default function Sobre() {
             do Instituto Federal Catarinense de Rio do Sul, apoiando alunos em infraestrutura em nuvem e desenvolvimento de software.
           </p>
           <p>
-            Nos últimos 5 anos tenho trabalhado com linguagens como PHP, Java, Node.js (Typescript) e tecnologias como 
+            Nos últimos anos tenho trabalhado com linguagens como PHP, Java, Node.js (Typescript) e tecnologias como 
             Spring Boot, React, Vue.js, PostgreSQL, MySQL, MongoDB, Docker, Kubernetes, GCP, AWS, Gitlab CI, Elasticsearch, 
             Nginx e em arquiteturas de mensageria e microsserviços.
           </p>
@@ -49,13 +49,22 @@ export default function Sobre() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="border border-terminal-green/20 p-4">
-              <span className="text-terminal-green">└─</span> Tech Leadership
+              <span className="text-terminal-green">└─</span> Liderança Técnica
             </div>
+            <div className="border border-terminal-green/20 p-4">
+              <span className="text-terminal-green">└─</span> Cloud Computing e DevOps
+            </div>
+            <div className="border border-terminal-green/20 p-4">
+              <span className="text-terminal-green">└─</span> Desenvolvimento Fullstack
+            </div>            
             <div className="border border-terminal-green/20 p-4">
               <span className="text-terminal-green">└─</span> Integrações de Sistemas
             </div>
             <div className="border border-terminal-green/20 p-4">
               <span className="text-terminal-green">└─</span> Microsserviços
+            </div>
+            <div className="border border-terminal-green/20 p-4">
+              <span className="text-terminal-green">└─</span> Gerenciamento de Projetos
             </div>
           </div>
         </div>
@@ -72,13 +81,6 @@ export default function Sobre() {
 
         <div className="pt-6 border-t border-terminal-green/10">
           <h3 className="text-xl font-bold text-terminal-green terminal-glow mb-4">
-            Certificações
-          </h3>
-          <p><span className="text-terminal-green">•</span> Google Cloud Essentials</p>
-        </div>
-
-        <div className="pt-6 border-t border-terminal-green/10">
-          <h3 className="text-xl font-bold text-terminal-green terminal-glow mb-4">
             Contato
           </h3>
           <div className="space-y-2 text-terminal-green/80">
@@ -91,7 +93,7 @@ export default function Sobre() {
             <p>
               <span className="text-terminal-green">•</span> WhatsApp:{' '}
               <a href="https://api.whatsapp.com/send?phone=5547991120742" target="_blank" rel="noopener noreferrer" className="hover:text-terminal-green terminal-glow">
-                (47) 991120742
+                (47) 9 9112 0742
               </a>
             </p>
             <p>
@@ -102,7 +104,7 @@ export default function Sobre() {
                 rel="noopener noreferrer"
                 className="hover:text-terminal-green terminal-glow underline"
               >
-                linkedin.com/in/andersonlmarchi
+                /andersonlmarchi
               </a>
             </p>
           </div>

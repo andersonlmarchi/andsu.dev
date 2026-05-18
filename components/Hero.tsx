@@ -52,32 +52,23 @@ export default function Hero() {
             <span className={`inline-block w-2 h-5 bg-terminal-green ml-1 ${showCursor ? 'opacity-100' : 'opacity-0'}`}></span>
           </div>
           
-          <div className="mt-12 space-y-4">
+          <div className="mt-20 space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold terminal-glow">
-              Fullstack Developer
+              Senior Fullstack Developer
             </h1>
-            <h2 className="text-3xl md:text-5xl text-terminal-green/80">
-              & Tech Lead
-            </h2>
             <p className="text-lg md:text-xl text-terminal-green/60 mt-6 max-w-2xl">
-              10 anos de experiência como desenvolvedor fullstack.
+              11 anos de experiência como desenvolvedor fullstack.
               <br />
-              Tech Lead | Especialista em Backend | DevOps | GCP & Kubernetes
+              Tech Lead | Desenvolvimento | PHP | Nodejs | Java | GCP
             </p>
           </div>
 
-          <div className="mt-12 flex gap-4">
-            <a 
-              href="#projects" 
-              className="px-6 py-3 border border-terminal-green text-terminal-green hover:bg-terminal-green hover:text-terminal-darker transition-all duration-300"
-            >
-              ver projetos
-            </a>
+          <div className="mt-12">
             <a 
               href="#about" 
-              className="px-6 py-3 text-terminal-green/80 hover:text-terminal-green transition-colors"
+              className="px-6 py-3 border border-terminal-green text-terminal-green hover:bg-terminal-green hover:text-terminal-darker transition-all duration-300 inline-block"
             >
-              sobre mim
+              minha carreira
             </a>
           </div>
         </div>

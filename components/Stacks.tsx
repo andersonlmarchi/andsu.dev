@@ -2,11 +2,11 @@
 
 const techCategories = {
   'Linguagens': {
-    items: ['Node.js', 'TypeScript', 'JavaScript', 'PHP', 'Java', 'Python', 'Go', 'Rust'],
+    items: ['Node.js', 'TypeScript', 'JavaScript', 'PHP', 'Java', 'Python'],
     description: 'Linguagens de programação que utilizo no dia a dia'
   },
   'Backend Frameworks': {
-    items: ['Spring Boot', 'Laravel', 'Express.js', 'FastAPI'],
+    items: ['Spring Boot', 'Laravel', 'Express.js', 'FastAPI', 'NestJS', 'AdonisJS'],
     description: 'Frameworks para desenvolvimento backend'
   },
   'Frontend': {
@@ -14,20 +14,20 @@ const techCategories = {
     description: 'Tecnologias frontend (consigo arrumar quando necessário)'
   },
   'Bancos de Dados': {
-    items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'DynamoDB', 'Elasticsearch'],
+    items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch'],
     description: 'Bancos de dados relacionais e NoSQL'
   },
   'Cloud & DevOps': {
-    items: ['GCP', 'AWS', 'Kubernetes', 'Docker', 'Terraform', 'Gitlab CI', 'CircleCI', 'Nginx'],
+    items: ['GCP', 'Docker', 'Gitlab CI', 'CircleCI', 'Nginx', 'AWS', 'Heroku', 'Render', 'Kubernetes'],
     description: 'Infraestrutura em nuvem e DevOps'
   },
   'Arquitetura': {
-    items: ['Microsserviços', 'Mensageria', 'CQRS', 'ETL', 'API REST', 'Webhooks'],
+    items: ['Microsserviços', 'Monolito', 'Mensageria', 'CQRS', 'ETL', 'API REST', 'Webhooks', 'GraphQL'],
     description: 'Padrões e arquiteturas de software'
   },
   'Ferramentas': {
-    items: ['Git', 'Linux', 'Bash', 'Pentaho', 'Prometheus'],
-    description: 'Ferramentas de desenvolvimento e automação'
+    items: ['Linux','Git', 'Bash', 'Pentaho', 'Postman', 'Insomnia', 'Grafana', 'Cloud Monitoring (GCP)', 'Cursor', 'Cloude Code'],
+    description: 'Ferramentas de observabilidade, desenvolvimento e automação'
   },
 }
 

@@ -3,29 +3,19 @@
 const experiencias = [
   {
     empresa: 'BrBox Sistemas',
-    cargo: 'Tech Lead',
-    periodo: 'janeiro de 2025 - Present',
-    duracao: '1 ano',
-    localizacao: 'Fiume sud, SC',
+    cargo: 'Senior Fullstack Software Engineer | Tech Lead',
+    periodo: 'outubro de 2023 - Atualmente',
+    duracao: '2 anos e 3 meses',
+    localizacao: 'Rio do Sul, SC',
     descricao: [
       'Como Tech Lead ajudei na organização e na implantação de processos de kanban e nos ritos de daily e planning.',
       'Responsável pelas áreas de desenvolvimento e DevOps colaborando na manutenção da infraestrutura do Google Cloud Platform e revisão de código.',
       'Realizo análise de sistema das demandas geradas por clientes e pela diretoria com o intuito de organizar, planejar e distribuir tarefas para os desenvolvedores.',
-    ],
-    tecnologias: ['PHP', 'Laravel', 'Vue.js', 'Node.js', 'Java', 'GCP', 'Gitlab CI', 'Docker'],
-  },
-  {
-    empresa: 'BrBox Sistemas',
-    cargo: 'Senior Fullstack Software Engineer',
-    periodo: 'outubro de 2023 - dezembro de 2024',
-    duracao: '1 ano 3 meses',
-    localizacao: 'Fiume sud, SC',
-    descricao: [
       'Implementei processos de gestão financeira, como faturas a pagar e a receber, sistema para antecipação de recebíveis, gestão de PNRs (Pago não Recebido) e gestão de contratos e documentos no sistema principal usando PHP, Laravel e Vue.js.',
       'Desenvolvi integrações com sistemas de terceiros, incluindo plataformas de assinatura de documentos digitais (zapsign), ferramentas de gerenciamento de riscos (raster), sistemas de e-commerce (shopee e mercado livre) e soluções de emissão de documentos fiscais (CT-e, MDFe e GNRE) utilizando Node.js e Java.',
       'Implementei o sistema de Gitlab Community, juntamente com as pipelines de CI (gitlab-ci) para deploy automatizado, com o intuito de diminuir gastos com o serviço cloud do Gitlab.',
     ],
-    tecnologias: ['PHP', 'Laravel', 'Vue.js', 'Node.js', 'Java', 'Gitlab CI', 'Docker'],
+    tecnologias: ['PHP', 'Laravel', 'Vue.js', 'Node.js', 'Java', 'GCP', 'Gitlab CI', 'Docker'],
   },
   {
     empresa: 'Ame Digital',
@@ -77,7 +67,7 @@ const experiencias = [
     cargo: 'Fullstack Software Engineer | Analista de Sistemas',
     periodo: 'junho de 2015 - agosto de 2019',
     duracao: '4 anos 3 meses',
-    localizacao: 'Fiume sud, SC',
+    localizacao: 'Rio do Sul, SC',
     descricao: [
       'Atuei como desenvolvedor nos módulos Fiscal, Comercial e Faturamento, tanto desktop quanto web, do sistema ERP.',
       'Implementação de regras de negócio para geração de Documentos Fiscais.',
@@ -91,7 +81,7 @@ const experiencias = [
     cargo: 'Software Engineer Intern',
     periodo: 'novembro de 2013 - maio de 2015',
     duracao: '1 ano 7 meses',
-    localizacao: 'Fiume sud, SC',
+    localizacao: 'Rio do Sul, SC',
     descricao: [
       'Ajudei no desenvolvimento de sistemas internos para gestão de patrimônio da instituição implementando o módulo de depreciação.',
       'Planejei e ministrei oficinas extracurriculares e aulas de introdução à programação e android (nativo) para alunos do técnico em informática.',

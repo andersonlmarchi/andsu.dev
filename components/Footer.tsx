@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-terminal-green/40 text-xs">
-          <p>Desenvolvido com Next.js e muito café ☕</p>
+          <p>Desenvolvido com Next.js, Cursor e muito café ☕</p>
         </div>
       </div>
     </footer>

@@ -14,7 +14,7 @@ const projetos = [
       '/projects/logpago/initial.png',
       '/projects/logpago/dashboard.png',
       '/projects/logpago/negotiations.png',
-    ], // Array de imagens para o carrossel
+    ],
     details: `Este projeto foi desenvolvido utilizando Node.js e React no Frontend e Node.js com Express no Backend. 
     
     A escolha do PostgreSQL como banco de dados foi feita pensando na integridade dos dados e nas relações complexas que o sistema precisava gerenciar. 
@@ -32,21 +32,59 @@ const projetos = [
   },
   {
     id: 2,
-    name: 'Projeto t-code 2',
-    description: 'Outro projeto desenvolvido na t-code com foco em performance e escalabilidade.',
-    stack: ['Python', 'FastAPI', 'MongoDB', 'GCP'],
-    githubUrl: 'https://github.com/andersonlmarchi/projeto-2',
+    name: 'BrBox - Plataforma de Logística',
+    description: 'Plataforma de logística para gestão de transportadoras, com funcionalidades de rastreamento, gestão financeira e integração com sistemas de terceiros.',
+    stack: ['PHP', 'Laravel', 'Vue.js', 'PostgreSQL', 'Docker', 'GCP'],
+    githubUrl: '',
     images: [
-      // '/projects/project2-1.png',
-      // '/projects/project2-2.png',
-    ], // Array de imagens para o carrossel
-    details: `Sistema desenvolvido com foco em performance e processamento de grandes volumes de dados.
+      '/projects/brbox/login.png',
+      '/projects/brbox/initial.png',
+      '/projects/brbox/routes.png',
+    ],
+    details: `Este projeto foi desenvolvido utilizando Laravel com PHP no Backend e Vue.js com Laravue no Frontend, implementando um sistema completo de gestão logística para controle de pessoas, veículos, rotas, pacotes e operações de transporte.
 
-Optei por Python com FastAPI devido à sua excelente performance em operações assíncronas e processamento de dados. O MongoDB foi escolhido para permitir flexibilidade no schema e facilitar a evolução do sistema conforme novas necessidades surgem.
+A escolha do PostgreSQL como banco de dados foi feita pensando na integridade dos dados e nas relações complexas entre empresas, centros de distribuição, pessoas (colaboradores, proprietários, motoristas e prestadores de serviço), veículos, rotas e pacotes que o sistema precisava gerenciar.
 
-A integração com GCP permite aproveitar serviços gerenciados como Cloud Functions e BigQuery, reduzindo a complexidade operacional e garantindo escalabilidade automática.`,
+O Eloquent ORM do Laravel foi utilizado para garantir um acesso seguro aos dados e facilitar o controle de migrações, permitindo versionamento completo do banco de dados.
+
+A arquitetura RESTful API com Controllers e Models proporcionou uma separação clara entre a lógica de negócio, apresentação em Vue.js e acesso a dados, facilitando manutenção e escalabilidade do sistema através de endpoints bem definidos.
+
+A integração com plataformas externas foi implementada via SOAP e APIs HTTP para sincronização de dados de documentos fiscais (CT-e, MDF-e, GNRE), geração automática de rotas conectando com plataformas de e-commerce (como Mercado Livre e Shopee), eliminando processos manuais repetitivos.
+
+O sistema de autenticação baseado em JWT (JSON Web Tokens) garante segurança nas APIs e controle de acesso por níveis de usuário através de roles e permissões.
+
+O sistema oferece funcionalidades avançadas como unificação inteligente de pessoas (com análise de similaridade de nomes por Levenshtein Distance), gestão de contratos, anexos, documentação de veículos com rastreamento de validade, disponibilidade de recursos, relatórios customizáveis e sincronização bidirecional com sistemas externos.
+
+A arquitetura suporta múltiplas empresas e centros de distribuição com permissões granulares, auditoria completa de alterações e controle de fluxos de aprovação para adiantamentos, pagamentos e operações críticas do sistema.`,
   },
-  // Adicione mais projetos conforme necessário
+  {
+    id: 3,
+    name: 'Projeto Solicitação de Adiantamentos',
+    description: 'Projeto desenvolvido para gerenciar solicitações de adiantamento de diárias para técnicos em campo, com workflow completo de criação, aprovação e pagamento.',
+    stack: ['C#', 'Entity Framework', 'Postgres', 'Integração SOAP', 'ASP.NET Core MVC', 'Razor Views'],
+    githubUrl: '',
+    images: [
+      '/projects/soladiantamento/login.png',
+      '/projects/soladiantamento/dashboard.png',
+      '/projects/soladiantamento/novasolicitacao.png',
+      '/projects/soladiantamento/usuario.png',
+    ],
+    details: `Este projeto foi desenvolvido utilizando .NET 9.0 com ASP.NET Core MVC no Backend e Razor Views no Frontend, implementando um workflow completo de gestão de solicitações de adiantamento de diárias para técnicos em campo.
+
+A escolha do PostgreSQL como banco de dados foi feita pensando na integridade dos dados e nas relações complexas entre usuários, técnicos, áreas e solicitações que o sistema precisava gerenciar.
+
+O Entity Framework Core foi utilizado como ORM para garantir um acesso seguro aos dados e facilitar o controle de migrações de banco de dados, permitindo versionamento completo do schema.
+
+A arquitetura MVC utilizada proporcionou uma separação clara entre a lógica de negócio, apresentação e acesso a dados, facilitando manutenção e escalabilidade do sistema.
+
+A integração com o sistema ERP Evolutize foi implementada via SOAP para geração automática de títulos a pagar e sincronização de dados de técnicos, eliminando a necessidade de processos manuais.
+
+O sistema de autenticação baseado em Cookie Authentication garante a segurança das informações e controle de acesso por níveis de usuário (criador, aprovador, pagador).
+
+A implementação de notificações por SMTP permite que todos os stakeholders sejam informados automaticamente sobre mudanças no status das solicitações, melhorando a comunicação e rastreabilidade do processo.
+
+O workflow de aprovação multicamadas (criação → aprovação/reprovação → pagamento) garante controle e compliance no processo de adiantamentos.`,
+  },
 ]
 
 export default function Projetos() {
@@ -54,7 +92,7 @@ export default function Projetos() {
     <section className="max-w-6xl mx-auto space-y-8">
       <div className="mb-8">
         <p className="text-terminal-green/60 mb-4">
-          Projetos desenvolvidos na <span className="text-terminal-green terminal-glow">t-code</span> e outros projetos pessoais.
+          Projetos desenvolvidos na <span className="text-terminal-green terminal-glow">t-code</span> e outros projetos pessoais. Imagens não apresentam valores nem dados privados.
         </p>
       </div>
       

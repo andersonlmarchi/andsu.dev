@@ -9,7 +9,7 @@ export default function Freelancer() {
             Trabalhos Freelancer
           </h2>
           <p className="text-terminal-green/80 mb-4">
-            Disponível para projetos freelance como desenvolvedor fullstack, consultoria técnica 
+            Estou disponível para trabalhar em projetos freelance como desenvolvedor fullstack, consultoria técnica 
             ou desenvolvimento de soluções personalizadas.
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function Freelancer() {
               <span className="text-terminal-green">$</span> cat disponibilidade.txt
             </p>
             <p className="text-terminal-green/80">
-              Disponível para novos projetos. Entre em contato para discutir seu projeto!
+              Tem processos manuais que poderiam ser automatizados com sistema? Entre em contato comigo pois posso te ajudar. Disponível para novos projetos!
             </p>
           </div>
         </div>

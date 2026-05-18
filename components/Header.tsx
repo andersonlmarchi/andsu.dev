@@ -22,9 +22,14 @@ export default function Header() {
           <div className="text-terminal-green font-bold text-xl">
             <span className="terminal-glow">$</span> andsu.dev
           </div>
-          <div className="hidden md:flex gap-8">
-            <a href="mailto:andersonlmarchi@gmail.com" className="hover:text-terminal-green/80 transition-colors">
-              email
+          <div className="hidden md:flex gap-8">            
+            <a 
+              href="https://github.com/andersonlmarchi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-terminal-green/80 transition-colors"
+            >
+              github
             </a>
             <a 
               href="https://www.linkedin.com/in/andersonlmarchi" 
@@ -33,6 +38,20 @@ export default function Header() {
               className="hover:text-terminal-green/80 transition-colors"
             >
               linkedin
+            </a>
+            <a 
+              href="mailto:andersonlmarchi@gmail.com" 
+              className="hover:text-terminal-green/80 transition-colors"
+            >
+              email
+            </a>
+            <a 
+              href="https://api.whatsapp.com/send?phone=5547991120742" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-terminal-green/80 transition-colors"
+            >
+              whatsapp
             </a>
           </div>
         </div>

@@ -5,8 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Anderson - Fullstack Developer & Tech Lead',
-  description: 'Portfolio de Anderson - Desenvolvedor Fullstack, Tech Lead e especialista em DevOps',
+  title: 'Anderson Luis Marchi - Fullstack Developer',
+  description: 'Portfolio de Anderson Luis Marchi - Desenvolvedor Fullstack, Tech Lead e especialista em DevOps',
+  icons: {
+    icon: '/icons/dollar.svg',
+  },
 }
 
 export default function RootLayout({
